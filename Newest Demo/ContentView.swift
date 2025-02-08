@@ -35,3 +35,17 @@ struct MainView: View {
 #Preview {
     ContentView()
 }
+
+// helper code for toggle
+
+// For let's say changing images, you would add your bool var with ? and the two different modes after these.
+// So lets say for Image(systemName) or foreground colors you would simply add  ( task.isBool ? "red", "yellow")
+// onTapGesture {
+//     withAnimation {
+//         viewModel.your_toggle_function(for: task)
+//                }
+//    }
+
+
+                      
+
